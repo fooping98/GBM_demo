@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Stock Price Simulation</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <h1>Sample path of stock at different drift and Volatility</h1>
+  <svg width="800" height="400"></svg>
+  <div id="controls">
+  <label>Drift (μ): <input type="number" id="mu" step="0.01" value="0.1"></label>
+  <label>Volatility (σ): <input type="number" id="sigma" step="0.01" value="0.2"></label>
+  <label>Number of Paths: <input type="number" id="numPaths" step="1" value="10"></label>
+</div>
+  <script src="main.js"></script>
+</body>
+</html>
